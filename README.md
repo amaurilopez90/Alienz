@@ -1,6 +1,8 @@
 # Alienz
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/amaurilopez90/GameDev/Alienz/master/LICENSE)
 
+![Alt Text](https://raw.githubusercontent.com/amaurilopez90/GameDev/Alienz/master/gameplay.gif) 
+
 Alienz is a 2-D survival game which challengs the player to fend off against waves of aliens using only 3 projectile weapons and a limited ammunition supply.
 The longer you survive, the more difficult the game becomes as enemies begin to increase movement speed as well as spawn rate. Be careful not to pick up consumables too early,
 because they won't last long!
