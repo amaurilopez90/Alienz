@@ -10,6 +10,11 @@ I've always been quite interested in game development and wanted to tackle a pro
 figured this would be a great challenge to improve my skills a bit. I wanted to create a simple game that would be great to play whenever I wanted to just pass the time.
 
 # How It Works
-Alienz is a tile-based game, that is the game map is sectioned off into small 32x32-pixel tiles with a total game map size of 800x608-pixels containing 475 tiles. The tiles themselves fall into two categories: valid and invalid tiles. A tile being valid or invalid simply means whether or not the player is able to walk over it, and these were strategically placed such as to fit the outline of my custom-made game map using TileD and some downloaded textures.
+Alienz is a tile-based game, that is the game map is sectioned off into small 32x32-pixel tiles with a total game map size of 800x608-pixels containing 475 tiles. 
 
-Processing user input from the keyboard simply involves moving the player sprite 32 pixels into the inputted direction, as well as changing the player's currently selected weapon by re-blitting the image of the weapon being selected over the sprite.
+**Tiles:** 
+The tiles themselves fall into two categories: valid and invalid tiles. A tile being valid or invalid simply means whether or not the player is able to walk over it, and these were strategically placed such as to fit the outline of my custom-made game map using TileD and some downloaded textures.
+
+**Processing:** 
+Processing user input from the keyboard simply involves moving the player sprite 32 pixels into the inputted direction, as well as changing the player's currently selected weapon by re-blitting the image of the weapon being selected over the sprite, and firing that weapon. Heavy error checking is placed into this, as the user must be prevented from walking onto an invalid tile, as well as walking outside the view of the playeable area.
+
