@@ -47,6 +47,16 @@ Each enemy utilizes the A* Pathfinding Algorithm to constantly update the locati
 # Controls
   - Use the W,A,S,D keys to move
   - Press(AND HOLD) the Spacebar to begin firing your weapon. Note: The weapon will only fire for as long as your hold down the fire button. Each weapon, depending on which is selected, will take some time to begin firing!
+  - Press the E key to cycle through each of the three projectile weapons
+  
+# Installation
+  1. Clone this repository using: **git clone**
+  2. Navigate to the "Alienz" subdirectory: GameDev/Alienz
+  3. Run ./main
+  
+# Enjoy!
+
+  
   
   
    
